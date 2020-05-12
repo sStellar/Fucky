@@ -1,0 +1,15 @@
+Group Bambi
+:
+ #["Bambi\n", "Mary Poppins\n", "Mowgli\n", "Sn\xC3\xB6vit\n"]
+Group Långben
+:
+ #["L\xC3\xA5ngben\n", "Musse Pigg\n", "Ariel\n", "Baloo\n"]
+Group Tingeling
+:
+ #["Tingeling\n", "Kalle Anka\n", "Bagheera\n", "Shere Khan\n"]
+Group Peter Pan
+:
+ #["Peter Pan\n", "Doris\n", "Nalle Puh\n", "Dumbo\n"]
+Group Nemo
+:
+ #["Nemo\n", "Pinocchio\n", "Pocahontas\n", "Alladin\n"]

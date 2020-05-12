@@ -1,0 +1,70 @@
+5.
+A)
+E/C - nivå 
+
+
+Spelet “nim” är PvP (spelare mot spelare) och bygger på att man börjar med ett antal pinnar (ca 14 st), sedan skall man turas om att plocka 1-3 pinnar, målet är att inte vara den som plockar sista pinnen. Gör ett program som:
+Låter spelarna skriva in sina namn 
+Slumpar ett antal pinnar att starta med och vilken spelare som för börja
+Låter spelarna turas om att plocka 1-3 pinnar
+Visar vem som vann i slutet och ger valmöjligheten att spela igen (med nytt antal pinnar och ny slumpning på vem som får börja). 
+
+OBS: Detta en extremt klassisk programming uppgift, vilket innebär att det finns extremt mycket exempelkod ute på internet. Denna avstämning är till för dig som elev att se hur du ligger till, kunna få feedback och utgör en väldigt liten del av ditt slutbetyg, med andra ord är du tillåten att kolla på lösningar på internet men du skjuter dig själv i foten genom att göra det. 
+
+B)
+C/A - nivå
+
+När du är klar med första steget kan du försöka programmera en dator att spela mot, till en början kan datorn ta ett slumpmässigt antal pinnar mellan 1-3. När programmet/funktionen startar upp kan det vara lämpligt att ge användaren alternativ om den vill spela mot dator eller mot en annan spelare.  
+
+C)
+OBS! Om du tycker uppgiften är väldigt rolig kan du även försöka med följande uppgifter, detta kanske är lite utanför scoopet av den här kursen både i svårighetsgrad och att det blir lite mer matematik bakom/i uppgiften: 
+
+Du kanske genom din felsökning och när du har testat ditt program insett att det finns en strategi som gör att man alltid vinner. Kan du programmera datorn så om den börjar eller om du som motståndare plockar “fel” antal pinnar kommer den alltid vinna? Tips är att försöka börja med att tänka ut matten bakom den vinnande strategin.
+
+Alternativt kan man: Man kan också tänka sig att istället för att vi bara har en hög att plocka ur så kan vi ha flera högar med flera pinnar i varje hög. Samma regler som tidigare så vill man inte plocka den absolut sista pinnen men när man plockar så måste man plocka alla sina 1-3 st pinnar från en och samma hög. Gör koden så man kan välja antal högar och slumpa ut pinnar i dessa högar. Låt sedan spelarna välja vilken hög de vill plocka ur. 
+6.
+A)
+C/A-nivå
+
+Gör en dagboks-program! Med andra ord ett program som när du startar öppnar en textfil där du välja att skriva in ett nytt dagboksinlägg. I sin simplaste form räcker det med att nya dagboksinlägg står rakt efter varandra men det ska finnas något kommando som gör att programmet sparar filen och stängs av. När du har fått det att fungera kan nödvändiga extrafunktioner vara att:
+Kunna läsa (alla) gamla inlägg
+Att programmet själv sätter en tidsstämpel i början av texten
+Fin formatering
+
+En extrafunktion som kan vara bra men absolut inte nödvändig är att lösenordsskydda sin dagbok/program. Med andra ord innan programmet öppnar filen måste man skriva in sitt lösenord. Man kan ju läsa ruby-koden och kommer då givetvis kunna se lösenordet men det är ett första steg i att försöka skydda sina filer. 
+
+B)
+A-nivå
+
+Kan du lägga in lösenordet i själva text-filen så man inte direkt i koden i alla fall kan läsa lösenordet? Går det att lägga till en funktion som gör att man kan byta lösenord?
+
+En mycket simpel “kryptering”/schiffer är att skjuta på bokstäverna i orden ett antal steg i alfabetet så att det blir omöjligt att rakt av läsa det som står. En sådan kryptering skulle exempelvis göra så att meningen “jag pratar bra latin” blir “OFL UWFYFW GWF QFYNS” där alla bokstäver är förskjuta 5 steg. Ett exempel på ett sådan förskjutningschiffer hittar vi på följade länk: https://hasselby.scout.se/for-scouter/chiffer/forskjutningschiffer/
+Försök göra så att när du skriver in text i ditt dokument så krypterar programmet automatiskt texten och när du sedan läser ett gammalt meddelande så avkrypterar den texten. 
+
+
+7.
+A-nivå
+
+OBS den här uppgiften är svårare än vad den kanske först ser ut att vara.
+
+Under en löptävling vill man hålla koll på ett antal deltagare och dess tider. Tävlingen är över två dagar och dessutom kan folk anmäla sig på plats. Efter dag ett har man ett textdokument som ser ungefär ut som följande:
+
+Adam, 155
+Petter, 311
+Minna, 89
+Stina, 0
+Kim, 608
+Hekla, 0
+Göran, 0
+Petter2, 0
+
+Där 0 är att deltagaren antingen inte har startat ännu eller aldrig kom i mål. 
+
+Du vill skapa ett program (förslagsvis en input-loop) som ska kunna:
+Skriva in tid på någon som står i listan och har gått i mål
+Skriva in namn och tid på ny deltagare
+Sortera deltagarna på deras tider så en vinnare kan avgöras 
+
+Tänk på vad som händer om man försöker lägga till ett namn som redan finns. 
+
+Tips är att först göra ett program som kanske inte är optimerat, men att sedan utöka programmet så man kanske både kan sortera listan på namn och tid vilket gör processen att leta upp en löpare i listan snabbare om vi använder oss av korrekta sökalgoritmer. 
